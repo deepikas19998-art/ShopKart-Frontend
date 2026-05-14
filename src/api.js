@@ -1,5 +1,7 @@
 import axios from 'axios';
-const API = axios.create({ baseURL: '/api' });
+const API = axios.create({
+  baseURL: "https://shopkart-backend-42sv.onrender.com/api"
+});
 
 
 API.interceptors.request.use((req) => {
