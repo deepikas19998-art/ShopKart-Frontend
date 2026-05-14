@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default MainApp;
+export default App;
