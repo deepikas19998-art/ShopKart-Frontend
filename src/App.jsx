@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { ShopProvider, useShop } from './context/ShopContext';
 import Navbar  from './components/Navbar';
 import Footer  from './components/Footer';
-import Toast   from './components/Toast';
 import Home     from './pages/Home';
 import Products from './pages/Products';
 import Cart     from './pages/Cart';
@@ -11,6 +10,7 @@ import Checkout from './pages/Checkout';
 import Login    from './pages/Login';
 import Register from './pages/Register';
 import Admin    from './pages/Admin';
+import Toast from './components/Toast';
 
 
 const Protected = ({ children }) => {
