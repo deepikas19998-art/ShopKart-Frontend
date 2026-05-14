@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { ShopProvider, useShop } from './context/ShopContext';
-import Navbar  from './components/Navbar';
-import Footer  from './components/Footer';
-import Toast   from './components/Toast';
-import Home     from './pages/Home';
-import Products from './pages/Products';
-import Cart     from './pages/Cart';
-import Checkout from './pages/Checkout';
-import Login    from './pages/Login';
-import Register from './pages/Register';
-import Admin    from './pages/Admin';
+import Navbar  from './components/Navbar.jsx';
+import Footer  from './components/Footer.jsx';
+import Toast   from './components/Toast.jsx';
+import Home     from './pages/Home.jsx';
+import Products from './pages/Products.jsx';
+import Cart     from './pages/Cart.jsx';
+import Checkout from './pages/Checkout.jsx';
+import Login    from './pages/Login.jsx';
+import Register from './pages/Register.jsx';
+import Admin    from './pages/Admin.jsx';
 
 
 const Protected = ({ children }) => {
